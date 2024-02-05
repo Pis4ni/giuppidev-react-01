@@ -1,8 +1,10 @@
 
 const sentence = 'hello world, my name is '
-function First({name}) {
+
+const cssClass = 'bg-red'
+function First({name = 'default'}) {
     return (
-        <div>
+        <div className={cssClass}>
             {sentence} {name}
         </div>
     )
