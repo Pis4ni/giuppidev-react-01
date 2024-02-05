@@ -1,9 +1,9 @@
 
 const sentence = 'hello world, my name is '
-function First(props) {
+function First({name}) {
     return (
         <div>
-            {sentence} {props.name}
+            {sentence} {name}
         </div>
     )
 }
